@@ -1,0 +1,17 @@
+﻿คู่มือการ ใช้งาน script
+1.file gen-template.php
+--> บรรทัดที่ 5 แก้ Main URL
+--> บรรทัดที่ 6  แก้ Main Keyword หน้า Home
+--> data_amz.csv ใส่ keyword 100 บรรทัด
+--> spinder.php ใส่ URL Rediret บรรทัดที่ 400 
+--> แก้ทุกอย่างเรียบร้อย แล้วรันด้วย ssh เข้าใน path ให้ถูกต้อง แล้วรัน php gen-template.php --> เป็นอันเสร็จการติดตั้ง
+
+2. file gen-video-sitemap.php
+--> บรรทัดที่ 2 แก้ Main URL
+--> เปิด https://domain.com/get-youtube-id/ --> ใส่ keyord ที่ต้องการดึง video จะได้ครั้งละ 50 link ต้องทำ 2 ครั้ง keyword คนละตัวกัน ระบบจะสร้าง file ให้เรียบร้อย 
+--> แก้ทุกอย่างเรียบร้อย แล้วรันด้วย ssh เข้าใน path ให้ถูกต้อง แล้วรัน php gen-video-sitemap.php  --> จะสร้าง video-sitemap กับ image-sitemap --> เป็นอันเสร็จการติดตั้ง
+
+
+159.223.50.232
+master_ztuhkfhtyg
+NvHW4fD5rqNJ
